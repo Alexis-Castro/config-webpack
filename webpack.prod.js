@@ -12,7 +12,7 @@ module.exports = {
     output: {
         clean: true,
         filename: 'main.[contenthash].js',
-        assetModuleFilename: 'assets/img/[name].[ext]',
+        assetModuleFilename: 'assets/img/[name][ext]',
     },
 
     module: {
